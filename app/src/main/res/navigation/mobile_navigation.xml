@@ -33,4 +33,9 @@
         android:label="fragment_web_view"
         android:name="ru.mirea.gribkova.mireaproject1.fragment_web_view"
         tools:layout="@layout/fragment_web_view"/>
+    <fragment
+        android:id="@+id/music"
+        android:label="fragment_music"
+        android:name="ru.mirea.gribkova.mireaproject1.MusicFragment"
+        tools:layout="@layout/fragment_music"/>
 </navigation>
