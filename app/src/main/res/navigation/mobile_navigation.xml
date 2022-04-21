@@ -38,4 +38,21 @@
         android:label="fragment_music"
         android:name="ru.mirea.gribkova.mireaproject1.MusicFragment"
         tools:layout="@layout/fragment_music"/>
+
+    <fragment
+        android:id="@+id/createphoto"
+        android:label="fragment_create_photo"
+        android:name="ru.mirea.gribkova.mireaproject1.take_Photo"
+        tools:layout="@layout/fragment_take__photo"/>
+
+    <fragment
+        android:id="@+id/sensors"
+        android:label="fragment_sensor"
+        android:name="ru.mirea.gribkova.mireaproject1.fragment_sensors"
+        tools:layout="@layout/fragment_sensors"/>
+    <fragment
+        android:id="@+id/audio"
+        android:label="fragment_record_audio"
+        android:name="ru.mirea.gribkova.mireaproject1.Recorder"
+        tools:layout="@layout/fragment_recorder"/>
 </navigation>

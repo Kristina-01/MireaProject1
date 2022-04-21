@@ -35,10 +35,9 @@ private ActivityMainBinding binding;
         });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
