@@ -55,4 +55,14 @@
         android:label="fragment_record_audio"
         android:name="ru.mirea.gribkova.mireaproject1.Recorder"
         tools:layout="@layout/fragment_recorder"/>
+    <fragment
+        android:id="@+id/settings"
+        android:label="fragment_settings"
+        android:name="ru.mirea.gribkova.mireaproject1.ui.Settings"
+        tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/history"
+        android:label="fragment_history"
+        android:name="ru.mirea.gribkova.mireaproject1.History"
+        tools:layout="@layout/fragment_history"/>
 </navigation>

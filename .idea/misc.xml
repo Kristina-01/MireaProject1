@@ -8,18 +8,22 @@
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/activityhistory.xml" value="0.2975630611372381" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/card_view.xml" value="0.2573749465583583" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_calculate.xml" value="0.25" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_calculate1.xml" value="0.1" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_create_photo.xml" value="0.2975630611372381" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_gallery.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_history.xml" value="0.2573749465583583" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_home.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_music.xml" value="0.31023550724637683" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_p_r5.xml" value="0.2" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_record_audio.xml" value="0.2860196665241556" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_recorder.xml" value="0.25" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_sensors.xml" value="0.2261650277896537" />
+        <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_settings.xml" value="0.2975630611372381" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_slideshow.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_take__photo.xml" value="0.25" />
         <entry key="..\:/Users/rcif7/AndroidStudioProjects/MireaProject1/app/src/main/res/layout/fragment_web_view.xml" value="0.30416666666666664" />
