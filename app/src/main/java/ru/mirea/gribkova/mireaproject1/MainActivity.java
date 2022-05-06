@@ -1,10 +1,13 @@
 package ru.mirea.gribkova.mireaproject1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -37,7 +40,7 @@ private ActivityMainBinding binding;
         NavigationView navigationView = binding.navView;
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio, R.id.settings, R.id.history)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio, R.id.settings, R.id.history, R.id.Socket)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
@@ -50,6 +53,17 @@ private ActivityMainBinding binding;
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    public boolean onCreatePanelMenu(int featureId, @NonNull Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu );
+        return true;
+    }
+
+    public void onClickToAuth(View view) {
+        Intent intent = new Intent(this, AuthWithFirebase.class);
+        startActivity(intent);
     }
 
     @Override

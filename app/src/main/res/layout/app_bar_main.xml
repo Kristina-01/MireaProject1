@@ -12,13 +12,6 @@
         android:layout_width="match_parent"
         android:theme="@style/Theme.MireaProject1.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.MireaProject1.PopupOverlay" />
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main"/>
@@ -30,6 +23,35 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
+        android:layout_marginTop="100dp"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.MireaProject1.PopupOverlay" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/authBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickToAuth"
+            android:text="authentication"
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_main"
+            app:layout_constraintVertical_bias="0.472"
+            />
+    </TableRow>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

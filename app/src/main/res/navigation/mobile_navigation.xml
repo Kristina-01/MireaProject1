@@ -65,4 +65,9 @@
         android:label="fragment_history"
         android:name="ru.mirea.gribkova.mireaproject1.History"
         tools:layout="@layout/fragment_history"/>
+    <fragment
+        android:id="@+id/Socket"
+        android:label="fragment_info"
+        android:name="ru.mirea.gribkova.mireaproject1.InfoFragment"
+        tools:layout="@layout/fragment_info"/>
 </navigation>
