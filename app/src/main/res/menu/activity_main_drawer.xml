@@ -36,5 +36,9 @@
         <item
             android:id="@+id/Socket"
             android:title="Time"></item>
+        <item
+            android:id="@+id/Room"
+            android:title="Students"></item>
+
     </group>
 </menu>

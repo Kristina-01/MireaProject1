@@ -70,4 +70,9 @@
         android:label="fragment_info"
         android:name="ru.mirea.gribkova.mireaproject1.InfoFragment"
         tools:layout="@layout/fragment_info"/>
+    <fragment
+        android:id="@+id/Room"
+        android:label="fragment_room"
+        android:name="ru.mirea.gribkova.mireaproject1.PR8.FragmentRoom"
+        tools:layout="@layout/fragment_room"/>
 </navigation>
