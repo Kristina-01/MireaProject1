@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
+import androidx.core.view.ScrollingView;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -43,6 +44,8 @@ private ActivityMainBinding binding;
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio, R.id.settings, R.id.history, R.id.Socket, R.id.Room)
                 .setOpenableLayout(drawer)
                 .build();
+
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);

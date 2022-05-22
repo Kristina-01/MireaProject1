@@ -6,9 +6,61 @@
     tools:context=".PR8.FragmentRoom">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
+
+    <Button
+        android:id="@+id/deleteall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete all"
+        android:layout_marginTop="300dp"/>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="665dp" />
+
+    <Button
+        android:id="@+id/buttonall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод бд"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last name"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/numberingroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:text="Number in group"
+        android:layout_marginTop="150dp"/>
 </FrameLayout>

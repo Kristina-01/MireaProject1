@@ -17,6 +17,9 @@ public interface StudentDao {
     @Insert
     void insertAll(Student... students);
 
+    @Query("DELETE FROM student WHERE numberingroup = :title")
+    abstract void deleteStudent(int title);
+
     @Delete
     void delete(Student student);
 }
