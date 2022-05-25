@@ -41,6 +41,9 @@
         <item
             android:id="@+id/Room"
             android:title="Students"></item>
+        <item
+            android:id="@+id/Maps"
+            android:title="Maps"></item>
 
     </group>
 

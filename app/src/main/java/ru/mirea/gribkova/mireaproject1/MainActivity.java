@@ -41,7 +41,7 @@ private ActivityMainBinding binding;
         NavigationView navigationView = binding.navView;
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio, R.id.settings, R.id.history, R.id.Socket, R.id.Room)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculator, R.id.music,R.id.createphoto,R.id.sensors,R.id.audio, R.id.settings, R.id.history, R.id.Socket, R.id.Room, R.id.Maps)
                 .setOpenableLayout(drawer)
                 .build();
 

@@ -75,4 +75,9 @@
         android:label="fragment_room"
         android:name="ru.mirea.gribkova.mireaproject1.PR8.FragmentRoom"
         tools:layout="@layout/fragment_room"/>
+    <fragment
+        android:id="@+id/Maps"
+        android:label="fragment_maps"
+        android:name="ru.mirea.gribkova.mireaproject1.Maps"
+        tools:layout="@layout/fragment_maps"/>
 </navigation>

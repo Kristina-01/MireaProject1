@@ -81,13 +81,8 @@ public class FragmentRoom extends Fragment {
 
             }
         });
-        Button btnall = view.findViewById(R.id.buttonall);
-        btnall.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                all();
-            }
-        });
+
+
         Button btndel = view.findViewById(R.id.deleteall);
         btndel.setOnClickListener(new View.OnClickListener() {
             @Override
