@@ -36,6 +36,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
+
             android:authorities="ru.mirea.gribkova.mireaproject1.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

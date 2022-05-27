@@ -96,10 +96,7 @@ public class take_Photo extends Fragment {
                 PackageManager.PERMISSION_GRANTED) {
             isWork = true;
         } else {
-            // Выполняется запрос к пользователь на получение необходимых разрешений
-            ActivityCompat.requestPermissions((Activity) getActivity().getApplicationContext(), new String[] {Manifest.permission.CAMERA,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                    REQUEST_CODE_PERMISSION_CAMERA);
+            ActivityCompat.requestPermissions(getActivity(), new String[] {Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE_PERMISSION_CAMERA);
         }
 
         // Вешаем обраотчик событий на кнопку
