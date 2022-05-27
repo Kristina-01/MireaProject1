@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_for_pr6">
+
+    <Button
+        android:id="@+id/savedog"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="400dp"
+        android:text="Сохранить"
+        />
+
+    <EditText
+        android:id="@+id/Breed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Парода"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="100dp"/>
+
+    <EditText
+        android:id="@+id/NameDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Кличка"
+        android:layout_marginTop="300dp"
+        android:layout_marginHorizontal="100dp"/>
+
+    <Button
+        android:id="@+id/deletedog"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="450dp"
+        android:text="Очистить " />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

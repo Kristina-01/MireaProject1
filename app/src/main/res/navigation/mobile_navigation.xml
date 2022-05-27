@@ -62,9 +62,9 @@
         tools:layout="@layout/fragment_settings"/>
     <fragment
         android:id="@+id/history"
-        android:label="fragment_history"
-        android:name="ru.mirea.gribkova.mireaproject1.History"
-        tools:layout="@layout/fragment_history"/>
+        android:label="fragment_story"
+        android:name="ru.mirea.gribkova.mireaproject1.Story"
+        tools:layout="@layout/fragment_story"/>
     <fragment
         android:id="@+id/Socket"
         android:label="fragment_info"
